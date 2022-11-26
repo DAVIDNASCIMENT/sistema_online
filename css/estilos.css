@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(189, 189, 189) !important;  /*Quando quisermos colocar nosso layout ao invés do Bootstrap usamos o comando "!inportant"*/
+    /*background-color: #000000;*/
+}
+
+img{
+     width: 100px;
+ }
+
+.pagina-principal{
+    height: 500px !important; text-align: center; /*retirou o tamanho das imagem na página principal principal, pois iremos ajustar pelo Bootstrap*/ 
+    width: 500px !important;
+ }
+
+.logotipo{
+    width: 50px !important;
+ }
+
+ h1{    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+p{    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    border: 1px #ff3300 solid;
+}
+
+nav{
+    background-color: black;
+}
+
+.btn-primary{
+    background-color: rgb(97, 97, 96) !important;  border: 1px #000000 solid !important; color: #ffffff !important;
+}
+.btn-secundary{
+    background-color: rgb(248, 80, 14) !important;  border: 1px #000000 solid !important; color: #ffffff !important;
+}

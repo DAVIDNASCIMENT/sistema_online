@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professores</title>
+
+    <link href="css/estilos.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-inverse">
+    
+        <div class="container-fluid">
+  
+            <a class="navbar-brand" href="index.html"> <img src="imagens/logo.PNG" class="logotipo"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class= "navbar-nav me-auto mb-2 mb-md-0"> 
+
+            <!-- O Infocena do Class=navbar já esta apontando para o Index, por esta razão não faz sentido ter outro link para o inicio. 
+             Porém é importante levar o código do Nav-link active para as outras páginas para deixar sinalizado em que página estamos
+            <li class="nav-item"> <a class="nav-link active" href="index.html">Início</a> </li>
+            -->
+            <li class="nav-item"> <a class="nav-link" href="alunos.html">Alunos</a></li>
+            <li class="nav-item"> <a class="nav-link" href="cursos.html">Cursos</a></li>
+            <li class="nav-item"> <a class="nav-link active" href="professores.html">Professores</a></li>
+            <li class="nav-item"> <a class="nav-link" href="turmas.html">Turmas</a></li>   
+    
+            </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <h1>Alunos</h1>
+
+        <div class="row mb-3">
+            <div class="col-md">
+    
+                <table class="table table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th class="table-dark">Nome</th>
+                            <th class="table-dark">Telefone</th>
+                            <th class="table-dark"></th>
+                            <th class="table-dark"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> </td>    
+                            <td> </td>
+                            <td> <button class="botao alterar" id="botao">Alterar</button></td>
+                            <td> <button class="botao excluir" id="botao">Excluir</button></td>      
+                        </tr>
+                        <tr>
+                            <td> </td>    
+                            <td> </td>
+                            <td> <button class="botao alterar" id="botao">Alterar</button></td>
+                            <td> <button class="botao excluir" id="botao">Excluir</button></td> 
+                        </tr>
+                        <tr>
+                            <td> </td>    
+                            <td> </td>
+                            <td> <button class="botao alterar" id="botao">Alterar</button></td>
+                            <td> <button class="botao excluir" id="botao">Excluir</button></td> 
+                        </tr>
+                    </tbody>
+                </table>
+    
+            <a class="btn btn-primary" href="formulario_professor.html">Novo professor</a>  
+    
+            </div>
+            </div>
+        
+    </main>
+
+    
+</body>
+
+<script src="js/bootstrap.bundle.js"></script>
+
+</html>
